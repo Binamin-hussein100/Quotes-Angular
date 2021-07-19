@@ -1,0 +1,14 @@
+button{
+    margin-top: 5%;
+}
+input{
+    margin-top: 5%;
+    height: 7vh;
+    border: none;
+    border-radius: 5% 5%;
+}
+
+textarea{
+    border: none;
+    border-radius: 5% 5%;
+}
