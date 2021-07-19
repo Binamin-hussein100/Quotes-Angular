@@ -1,11 +1,6 @@
 <div class="container-fluid">
     <div class="row">
-       <ul>
-           <li *ngFor = "let posts of posts; let i = index" >
-               <h5> {{ posts.quote }}</h5>
-               <app-quote-detail [posts]= 'posts' (isComplete) ='deletePost($event,i)'></app-quote-detail>
-           </li>
-       </ul>
+       
     </div>
 </div>
 
