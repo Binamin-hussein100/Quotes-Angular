@@ -3,5 +3,15 @@
     <hr>
     <h4>Post your quotes..</h4>
 
-   
+    <div class="row">
+      <div class="col-md-6">
+        <app-input></app-input>
+      </div>
+      <div class="col-md-6">
+          <div>
+            <app-form (addQuote) = "addNewQuote($event)"></app-form>
+          </div>
+      </div>
+     
+    </div>
   </div> 
